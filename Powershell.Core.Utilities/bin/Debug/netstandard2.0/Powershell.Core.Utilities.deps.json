@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "a57607f7b8f35c5d2ebcfc51a2c0a9c014894614"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Powershell.Core.Utilities/1.0.0": {
+        "dependencies": {
+          "Microsoft.PowerShell.SDK": "6.0.1.1",
+          "NETStandard.Library": "2.0.1",
+          "PSReptile": "0.0.3",
+          "PSReptile.Build": "0.0.3"
+        },
+        "runtime": {
+          "Powershell.Core.Utilities.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.PowerShell.SDK/6.0.1.1": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PSReptile/0.0.3": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/PSReptile.dll": {}
+        }
+      },
+      "PSReptile.Build/0.0.3": {}
+    }
+  },
+  "libraries": {
+    "Powershell.Core.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.PowerShell.SDK/6.0.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NK5pGnE3HknWSQl5nxhcoE29VpFVKEFkw25Jko+gLr7C0oVlk3SiJW/ptj29rSwN4uKYD4ymcBGIubrm1ekCbQ==",
+      "path": "microsoft.powershell.sdk/6.0.1.1",
+      "hashPath": "microsoft.powershell.sdk.6.0.1.1.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "PSReptile/0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yVj1pGMuoIsq9KfbIVOZUu7gQRB9/wA4o7DNu6/ICZlARe8wgKYDJYNFcXx6lEXkoMGrwTxV1yV1fkkoLQoWKA==",
+      "path": "psreptile/0.0.3",
+      "hashPath": "psreptile.0.0.3.nupkg.sha512"
+    },
+    "PSReptile.Build/0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F1Q5YQ0ooOL/oKpMT4VEatYvNPjqhKzIznS5oek7yA2yTSPRyjyz+VRNotU9Uv5LJ/fac7c7ILxwG9uyCRBghg==",
+      "path": "psreptile.build/0.0.3",
+      "hashPath": "psreptile.build.0.0.3.nupkg.sha512"
+    }
+  }
+}

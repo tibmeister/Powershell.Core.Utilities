@@ -35,6 +35,10 @@ namespace Powershell.Core.Utilities
                     .StartRowDefinition(false, null, null)
                         .AddPropertyColumn("Source", Alignment.Undefined, null)
                         .AddPropertyColumn("Destination", Alignment.Undefined, null)
+
+                        .AddPropertyColumn("Destination", Alignment.Undefined, null)
+                        .AddPropertyColumn("Address", Alignment.Undefined, null)
+
                         .AddPropertyColumn("Ipv4", Alignment.Undefined, null)
                         .AddPropertyColumn("Ipv6", Alignment.Undefined, null)
                         .AddPropertyColumn("BufferSize", Alignment.Undefined, null)

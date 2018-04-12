@@ -9,6 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Powershell.Core.Utilities.Format.ps1xml" />
+    <None Remove="Powershell.Core.Utilities.psd1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Powershell.Core.Utilities.Format.ps1xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Powershell.Core.Utilities.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="PowerShellStandard.Library" Version="5.1.0-preview-03" />
     <PackageReference Include="PSReptile" Version="0.0.3" />
     <PackageReference Include="PSReptile.Build" Version="0.0.3" />

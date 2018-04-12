@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "a57607f7b8f35c5d2ebcfc51a2c0a9c014894614"
+    "signature": "abd8cb5665200dcf516aab49ee5cddfdf2d3cc88"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,20 +9,24 @@
     ".NETStandard,Version=v2.0/": {
       "Powershell.Core.Utilities/1.0.0": {
         "dependencies": {
-          "Microsoft.PowerShell.SDK": "6.0.1.1",
           "NETStandard.Library": "2.0.1",
           "PSReptile": "0.0.3",
-          "PSReptile.Build": "0.0.3"
+          "PSReptile.Build": "0.0.3",
+          "PowerShellStandard.Library": "5.1.0-preview-03"
         },
         "runtime": {
           "Powershell.Core.Utilities.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
-      "Microsoft.PowerShell.SDK/6.0.1.1": {},
       "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PowerShellStandard.Library/5.1.0-preview-03": {
+        "runtime": {
+          "lib/netstandard2.0/System.Management.Automation.dll": {}
         }
       },
       "PSReptile/0.0.3": {
@@ -49,19 +53,19 @@
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
-    "Microsoft.PowerShell.SDK/6.0.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NK5pGnE3HknWSQl5nxhcoE29VpFVKEFkw25Jko+gLr7C0oVlk3SiJW/ptj29rSwN4uKYD4ymcBGIubrm1ekCbQ==",
-      "path": "microsoft.powershell.sdk/6.0.1.1",
-      "hashPath": "microsoft.powershell.sdk.6.0.1.1.nupkg.sha512"
-    },
     "NETStandard.Library/2.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "PowerShellStandard.Library/5.1.0-preview-03": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziLfdoH1fM6BPs0rb18SSkgAto3faukmLJUTKvX6j16B0MLHMc2W3Knfy+/5zmB2T1u9gy/EhWY/czmUXLDRvg==",
+      "path": "powershellstandard.library/5.1.0-preview-03",
+      "hashPath": "powershellstandard.library.5.1.0-preview-03.nupkg.sha512"
     },
     "PSReptile/0.0.3": {
       "type": "package",

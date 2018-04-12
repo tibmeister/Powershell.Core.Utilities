@@ -33,8 +33,12 @@ namespace Powershell.Core.Utilities
                     .AddHeader(label: "Bytes", width: 8, alignment: Alignment.Undefined)
                     .AddHeader(label: "Time(ms)", width: 9, alignment: Alignment.Undefined)
                     .StartRowDefinition(false, null, null)
+                        .AddPropertyColumn("Source", Alignment.Undefined, null)
+                        .AddPropertyColumn("Destination", Alignment.Undefined, null)
+
                         .AddPropertyColumn("Destination", Alignment.Undefined, null)
                         .AddPropertyColumn("Address", Alignment.Undefined, null)
+
                         .AddPropertyColumn("Ipv4", Alignment.Undefined, null)
                         .AddPropertyColumn("Ipv6", Alignment.Undefined, null)
                         .AddPropertyColumn("BufferSize", Alignment.Undefined, null)
